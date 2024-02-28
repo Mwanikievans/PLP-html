@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: hsla(224, 93%, 48%, 0);
+            color: #020111;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #f4f4f4;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #f4f4f4;
+            margin-top: 5px;
+            padding: 10px;
+        }
+        ul li:hover ul {
+            display: list-item;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcom to my first Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a>
+                <ul>
+                    <li>Website Dev</li>
+                    <li>Python codes</li>
+                    <li>Github account</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
